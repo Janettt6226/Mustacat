@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Dosis:wght@200;500&display=swap');
+
+body {
+  display: flex;
+  font-family: Doses, serif;
+  background-color: #F2E7D5;
+  color: #393E46;
+}
+
+h1, h2 {
+  font-family: Arimo, serif;
+}
+
+h1 {
+  font-size: 36px;
+  color: #6D9886;
+}
+
+h2 {
+  color: #331D2C;
+  font-size: 28px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* a:hover {
+  color: #6D9886;
+} */
+
+#button-discover {
+  background-color: #6D9886;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+#button-discover:hover {
+  background-color: white;
+  color: #6D9886;
+  border: 1px solid #6D9886;
+}
+
+#profile-pix {
+  width: 300px;
+}
+
+.container {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.white-card {
+  background-color: white;
+  padding: 32px;
+  margin: 16px auto;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #F2E7D5;
+}
+
+ul {
+  list-style: none;
+  /* border: 1px solid #331D2C; */
+  padding-left: 0px;
+}
+
+li {
+  display: inline;
+  margin: 8px;
+}
+
+i {
+  color: #331D2C;
+  font-size: 30px;
+}
